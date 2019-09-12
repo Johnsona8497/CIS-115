@@ -1,0 +1,24 @@
+// M2LAB
+// Anthony Johnson
+// 9/12/19
+
+// Greet the user by name,
+// then tell them their age
+// on their next birthday
+
+//Declarations
+Declare string name
+Declare Interger age
+
+//Ask for their name
+Display "What is your name?"
+Input Name
+
+//Ask for their age
+Display "What is your age?"
+Input Age
+
+//tell them (by name) how old they will be
+//on their next birthday
+Set age=age+1
+Display "Well, ", name, "on your next birthday you will be ", age, "!"
